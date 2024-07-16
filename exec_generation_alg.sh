@@ -46,7 +46,7 @@ else
     exit 1
 fi
 
-dir="MRI-2DBivMesh"
+dir="MRI-2DBivMesh-colab"
 
 if [ $(basename "$PWD") != "$dir" ]; then
     echo "You are not in the desired directory."
