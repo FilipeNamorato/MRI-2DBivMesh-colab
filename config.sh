@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -x
 
-dir="MRI-2DBivMesh"
+dir="MRI-2DBivMesh-colab"
 
 if [ $(basename "$PWD") = "$dir" ]; then
     mkdir outputs_other
