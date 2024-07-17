@@ -135,7 +135,4 @@ def convert_xdmf_to_vtu(meshname):
 
     mesh = meshio.Mesh(points, cells, point_data=point_data, cell_data=cell_data,)
     mesh.write(meshname+".vtu", file_format="vtu",  )
-
-
-print('teste...')
         
